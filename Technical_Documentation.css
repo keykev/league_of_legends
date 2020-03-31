@@ -1,0 +1,50 @@
+:root{
+    --dimgray: #696969; 
+    --black: #000000;
+  }
+  li{
+    list-style: none;
+  }
+  code{
+    font-size: 15px;
+    
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  header > h2{
+    padding-right:5px;
+  }
+  #navbar{
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    float:left;
+    z-index: 1;
+    height:100%;
+    border-right:solid;
+  }
+  #navbar > a{
+    border-top:solid;
+  }
+  
+  #main-doc{
+    background-color: var(--dimgray);
+    position:absolute;
+    margin-left: 200px;
+    padding:20px;
+    
+  }
+  .main-section{
+    font-family: Comic Sans MS
+  }
+  .nav-link{
+    margin-top: 10px;
+    font-size:20px;
+  }
+  @media (max-width: 250vw){
+      p{
+          font-size: 20px;
+      }
+  }
