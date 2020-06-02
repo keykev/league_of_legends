@@ -1,1 +1,1 @@
-# TechnicalDocumentation
+# League of legends Area infomation
